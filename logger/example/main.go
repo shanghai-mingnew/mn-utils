@@ -1,6 +1,6 @@
 package main
 
-import "mn-utils/logger"
+import "github.com/shanghai-mingnew/mn-utils/logger"
 
 func main() {
 	logger.SetLevel("debug")

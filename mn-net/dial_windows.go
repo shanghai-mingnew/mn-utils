@@ -2,9 +2,10 @@ package mnnet
 
 import (
 	"context"
-	"mn-utils/logger"
 	"net"
 	"syscall"
+
+	"github.com/shanghai-mingnew/mn-utils/logger"
 )
 
 func Listen(network, address string) (net.Listener, error) {
